@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #172a46;
+  z-index: 2;
+  display: flex;
+  color: white;
+
+  .pen {
+    font-size: 25px;
+    margin-left: 220px;
+    margin-top: 13px;
+    cursor: pointer;
+  }
+
+  .logo {
+    font-size: 30px;
+    font-family: Acme;
+    font-weight: 300;
+    margin-left: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+
+  .menuItems {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 500px;
+    justify-content: space-evenly;
+    width: 500px;
+    font-size: 20px;
+
+    .navItem {
+      cursor: pointer;
+      &:hover {
+        color: #ababab;
+      }
+    }
+  }
+}

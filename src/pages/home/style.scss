@@ -1,0 +1,56 @@
+.home {
+  position: relative;
+  height: 700px;
+  width: 100%;
+
+  .img {
+    background-size: cover;
+    opacity: 0.4;
+    height: 700px;
+    width: 100%;
+    position: absolute;
+  }
+
+  .heading {
+    position: relative;
+    padding: 70px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 60px;
+    color: #172a46;
+    text-decoration: underline;
+  }
+  .bodyDesc {
+    position: relative;
+    font-weight: 600;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .homebtn {
+    margin-top: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  button {
+    height: 50px;
+    width: 250px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: #172a46;
+    color: white;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color: #90a7ca;
+    border: 2px solid #172a46;
+    color: #172a46;
+    transition: 0.3s ease-out;
+  }
+}

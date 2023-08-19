@@ -1,0 +1,50 @@
+.skBody {
+  height: 250px;
+  width: 300px;
+  margin: 5px;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  border: 2px solid #ccc;
+
+  .skTitle {
+    width: 200px;
+    margin: 5px auto;
+    height: 22px;
+    border-radius: 5px;
+    background-color: #e4e4e4;
+    border: 2px solid #ccc;
+  }
+
+  .skInfo {
+    display: flex;
+    justify-content: space-between;
+
+    .skInfoItem {
+      height: 12px;
+      width: 50px;
+      margin: 10px;
+      border-radius: 3px;
+      background-color: #e4e4e4;
+      border: 2px solid #ccc;
+    }
+  }
+
+  .skDiscription {
+    height: 15px;
+    width: 270px;
+    margin: 8px auto;
+    border-radius: 5px;
+    background-color: #e4e4e4;
+    border: 2px solid #ccc;
+  }
+
+  .skUpdatedBy {
+    height: 14px;
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 4px;
+    background-color: #e4e4e4;
+    border: 2px solid #ccc;
+  }
+}
