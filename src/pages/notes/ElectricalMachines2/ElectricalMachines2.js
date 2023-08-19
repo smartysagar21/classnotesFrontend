@@ -11,7 +11,7 @@ const ElectricalMachines2 = () => {
   const getNotes = async () => {
     setLoading(true);
     const { data } = await axios.get(
-      "https://nodejs-classnotes.onrender.com/api/notes/all",
+      "https://nodejs-classnotes.onrender.com/api/notes/em2",
       {
         headers: {
           "Content-Type": "application/json",
